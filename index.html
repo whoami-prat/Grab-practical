@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Grab The Practical</title>
+  <meta name="description" content="One shared place for your class to find, view and download practical photos and code, organised by subject.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/landing.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-in">
+      <a class="brand" href="/" aria-label="Grab The Practical home">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+          <rect width="24" height="24" rx="6" fill="currentColor"/>
+          <path d="M12 6.5v8m0 0-3.5-3.5M12 14.5l3.5-3.5M7 18h10" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+        <span>Grab The Practical</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#stack">Tech</a>
+        <a class="btn primary" href="/app/">Open the shelf</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">AIML · PPS · VOC · EP · CS</p>
+        <h1>Stop chasing a friend for her practical photos.</h1>
+        <p class="sub">One shared shelf for the whole class. Pick a subject, open the practical, and grab the photos and the code.</p>
+        <div class="cta">
+          <a class="btn primary big" href="/app/">Open the shelf</a>
+          <a class="btn big" href="#how">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="problem">
+      <div class="container two">
+        <div>
+          <h2 id="problem">The way it works now</h2>
+          <p class="body">You need Practical 5. You message a friend, wait for a reply, receive blurry photos in a chat, and scroll back through a hundred messages to find them again next week. Every classmate does the same thing, and the same files get sent over and over.</p>
+        </div>
+        <div>
+          <h2>The way it works here</h2>
+          <p class="body">The admin uploads once. Everyone else opens the subject, picks the practical number, and downloads the photos and the code. Nothing gets lost in a chat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <ol class="steps">
+          <li><span class="n">1</span><div><h3>Pick a subject</h3><p>Five subjects are ready on day one. Add more any time.</p></div></li>
+          <li><span class="n">2</span><div><h3>Open a practical</h3><p>Practicals are listed by number, so Practical 5 is always where you expect it.</p></div></li>
+          <li><span class="n">3</span><div><h3>Grab what you need</h3><p>Switch between Images and Code. Download the photos, the code, or both, as separate files.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="features" class="section alt">
+      <div class="container">
+        <h2 class="section-title">What you get</h2>
+        <div class="features">
+          <article><h3>Photos, readable</h3><p>Photos are shrunk when they are uploaded, so they stay clear and load fast on a phone.</p></article>
+          <article><h3>Code with colours</h3><p>Programs show with syntax colours and a one-click copy button.</p></article>
+          <article><h3>Two separate downloads</h3><p>Download all photos of a practical as one zip, and all code as another.</p></article>
+          <article><h3>Search</h3><p>Type "practical 5 PPS" or a word from a program and jump straight to it.</p></article>
+          <article><h3>Live for everyone</h3><p>When the admin adds something, it shows up for you without reloading.</p></article>
+          <article><h3>Read-only for students</h3><p>Only the admin can add or remove content, so the shelf stays tidy and nothing disappears by accident.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="container two">
+        <div>
+          <h2 class="section-title">Built with</h2>
+          <p class="body">A static frontend on Vercel talks directly to Supabase. There is no server to run or pay for.</p>
+        </div>
+        <ul class="stack">
+          <li><b>Vercel</b><span>Hosts the website</span></li>
+          <li><b>Supabase Postgres</b><span>Subjects, practicals, code</span></li>
+          <li><b>Supabase Storage</b><span>Practical photos</span></li>
+          <li><b>Supabase Auth</b><span>Admin login</span></li>
+          <li><b>HTML, CSS, JavaScript</b><span>No framework needed</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container">
+        <h2>Built by students, for students.</h2>
+        <p class="body">Open the shelf, find your practical and download it. No chat needed.</p>
+        <a class="btn primary big" href="/app/">Open the shelf</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="container foot-in">
+      <span>Grab The Practical</span>
+      <span>Made by techprat for bhai sexual gang</span>
+    </div>
+  </footer>
+</body>
+</html>

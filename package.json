@@ -1,0 +1,10 @@
+{
+  "name": "grab-the-practical",
+  "version": "1.0.0",
+  "description": "A shared shelf for a class to upload and download practical photos and code.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000"
+  }
+}
